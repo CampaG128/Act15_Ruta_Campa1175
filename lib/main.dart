@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:campa1175/pantalla3_1175.dart';
 import 'package:campa1175/pantalla2_1175.dart';
 import 'package:campa1175/pantalla1_1175.dart';
 import 'package:campa1175/pantallainicial_1175.dart';
@@ -17,6 +18,7 @@ class MiApp1175 extends StatelessWidget {
         "/": (context) => PantallaInicial_1175(),
         "/pantalla1_1175": (context) => Pantalla1_1175(),
         "/pantalla2_1175": (context) => Pantalla2_1175(),
+        "/pantalla3_1175": (context) => Pantalla3_1175(),
       }, //rutas
     ); //materialapp
   } //fin widget

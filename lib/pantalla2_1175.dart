@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 // Pantalla 2
 
-import 'package:flutter/material.dart';
-
 class Pantalla2_1175 extends StatelessWidget {
   const Pantalla2_1175({Key? key}) : super(key: key);
 
@@ -11,23 +9,21 @@ class Pantalla2_1175 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Pantalla 2 Nava1175"),
-        backgroundColor: Colors.purple,
+        backgroundColor: Color(0xff002a72),
       ),
       body: Center(
         child: Container(
-          color: Colors.pinkAccent,
-          width: double.infinity,
-          height: 300,
-          child: Card(
-            color: Colors.purple,
-            margin: EdgeInsets.all(32),
-            child: Padding(
-              padding: EdgeInsets.all(16),
-              child: Text(
-                'Contenedor campa',
-                style: TextStyle(fontSize: 30, color: Colors.white),
-              ),
-            ),
+          color: Color(0xff0661ad),
+          constraints: BoxConstraints(
+            minHeight: 100,
+            minWidth: 200,
+            maxHeight: 300,
+            maxWidth: 300,
+          ),
+          child: Text(
+            'Container Campa_1175 con restricciones',
+            style: TextStyle(
+                fontSize: 30, color: Colors.white, fontWeight: FontWeight.w600),
           ),
         ),
       ),
